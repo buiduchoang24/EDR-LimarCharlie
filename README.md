@@ -12,4 +12,10 @@ Invoke-WebRequest -Uri https://download.sysinternals.com/files/Sysmon.zip -OutFi
 Expand-Archive -LiteralPath C:\Windows\Temp\Sysmon.zip -DestinationPath C:\Windows\Temp\Sysmon
 ```
 
+- I use LimaCharlie (a SecOps cloud platform)
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/bdce3c63-38eb-42a6-81f6-626cfc5138e1)
+- Follow these steps, and I reach this. It successfully creates the sensor
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/a9985c93-978d-4c3a-83d8-5d23d9e3f49b)
+
+
 
